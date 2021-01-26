@@ -30,7 +30,7 @@ function kilometerToMeter(kilometer) {
       return total;
     } else {
       var firstCondition = 10 * 100;
-      var seceondCondition = 20 * 80;
+      var seceondCondition = 10 * 80;
       var remain = day - 20;
       var thirdCondition = remain * 50;
       var total = firstCondition + seceondCondition + thirdCondition;
@@ -38,6 +38,8 @@ function kilometerToMeter(kilometer) {
     }
   }
   
+  var result=hotelCost(21);
+  console.log(result);
   function megaFriend(friend_name) {
     var fix_name = friend_name[0];
     for (var i = 0; i < friend_name.length; i++) {
